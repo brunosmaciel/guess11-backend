@@ -1,0 +1,31 @@
+{
+    "kind": "collectionType",
+    "collectionName": "games",
+    "info": {
+        "singularName": "game",
+        "pluralName": "games",
+        "displayName": "game",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": false
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "game_datum": {
+            "type": "relation",
+            "relation": "oneToOne",
+            "target": "api::game-datum.game-datum"
+        },
+        "score": {
+            "type": "integer",
+            "default": 0,
+            "required": true
+        },
+        "player": {
+            "type": "relation",
+            "relation": "oneToOne",
+            "target": "plugin::users-permissions.user"
+        }
+    }
+}

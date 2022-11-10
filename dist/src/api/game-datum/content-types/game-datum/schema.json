@@ -1,0 +1,65 @@
+{
+    "kind": "collectionType",
+    "collectionName": "game_data",
+    "info": {
+        "singularName": "game-datum",
+        "pluralName": "game-data",
+        "displayName": "gameDatum"
+    },
+    "options": {
+        "draftAndPublish": false
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "matchDescription": {
+            "type": "text"
+        },
+        "player1": {
+            "type": "string",
+            "required": true
+        },
+        "player2": {
+            "type": "string",
+            "required": true
+        },
+        "player3": {
+            "type": "string",
+            "required": true
+        },
+        "player4": {
+            "type": "string",
+            "required": true
+        },
+        "player5": {
+            "type": "string",
+            "required": true
+        },
+        "player6": {
+            "type": "string",
+            "required": true
+        },
+        "player7": {
+            "type": "string",
+            "required": true
+        },
+        "player8": {
+            "type": "string",
+            "required": true
+        },
+        "player9": {
+            "type": "string",
+            "required": true
+        },
+        "player10": {
+            "type": "string",
+            "required": true
+        },
+        "player11": {
+            "type": "string",
+            "required": true
+        },
+        "tactialScheme": {
+            "type": "integer"
+        }
+    }
+}
